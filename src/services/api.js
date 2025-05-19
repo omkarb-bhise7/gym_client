@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const REACT_APP_BACKEND_URL=`https://gym-server-k6k4.onrender.com`;
 
 // Member API calls
 export const getMembers = async () => {
