@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Backend base URL
-const REACT_APP_BACKEND_URL = 'https://gym-server-k6k4.onrender.com';
+//const REACT_APP_BACKEND_URL = 'https://gym-server-k6k4.onrender.com';
+const REACT_APP_BACKEND_URL = 'https://gym-server-k6k4.onrender.com/api';
 
 // Member API calls
 export const getMembers = async () => {
